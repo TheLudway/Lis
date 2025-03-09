@@ -1,9 +1,14 @@
-
-
+import {Routes, Route, Link} from 'react-router-dom'
+import Principal from './Screens/Principal'
 function App() {
   return (
     <>
-      <h1 class="text-3xl font-bold underline">Hola Nicolas Lis</h1>
+      <nav class="bg-secundary-blue">
+        <Link to='/' class="">Nicolas</Link>
+      </nav>
+      <Routes>
+        <Route path='/' element={<Principal/>}/>
+      </Routes>
     </>
   )
 }
