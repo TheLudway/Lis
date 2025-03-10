@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <nav class="bg-secundary-blue">
-        <Link to='/' class="">Nicolas</Link>
+        <Link to='/' class="font-code text-secundary-white">About me</Link>
       </nav>
       <Routes>
         <Route path='/' element={<Principal/>}/>
