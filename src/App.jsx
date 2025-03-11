@@ -7,7 +7,7 @@ function App() {
         <Link to='/' class="font-code text-secundary-white">About me</Link>
       </nav>*/}
       <Routes>
-        <Route path='/' element={<Principal/>}/>
+        <Route path='/webNicolas/' element={<Principal/>}/>
       </Routes>
     </>
   )
