@@ -2,9 +2,11 @@
 
 @theme {
   --color-primary: #222831;
-  --color-primary-darkL: #31363F; 
+  --color-primary-darkBlue: #1f5063; 
 
-  --color-secundary-blue: #76ABAE;
+  --color-secundary-blue: #007e85;
+  --color-secundary-green: #2fad8c;
+  --color-secundary-lightGreen: #76ABAE;
   --color-secundary-white: #EEEEEE;
 
   --font-code: 'firaCode', sans-serif;
