@@ -5,7 +5,7 @@ export default function Principal(){
         <>
             <div class="h-screen bg-linear-to-r from-primary to-primary-darkBlue w-full">
                 <Portada/>
-
+                <SobreMi/>
             </div>
         </>
     )
