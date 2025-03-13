@@ -3,9 +3,9 @@ import SobreMi from "../Components/Principal/SobreMi"
 export default function Principal(){
     return(
         <>
-            <div class="bg-primary">
+            <div class="h-screen bg-linear-to-r from-primary to-primary-darkBlue w-full">
                 <Portada/>
-                <SobreMi/>
+
             </div>
         </>
     )
