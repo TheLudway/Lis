@@ -30,9 +30,8 @@
 
 @layer utilities{
   .fondo {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #1f5063 100%),  url("./Assets/bgCode2.gif"); 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #222831 100%),  url("./Assets/bgCode2.gif"); 
     background-size:auto;
-
     background-position: center;
   }
 }

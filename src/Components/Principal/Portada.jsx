@@ -1,5 +1,3 @@
-import fondo from '../../Assets/bgCode.gif'
-import perfil from '../../Assets/perfil.jpg'
 import programingLogo from '../../Assets/logoProgramacion.svg'
 
 
@@ -12,8 +10,6 @@ export default function Portada() {
                     <h1 class="font-code-bold pt-5 text-secundary-white text-2xl md:text-4xl text-center">Nicolas Lis Cruz</h1>
                     <h3 class="font-code text-secundary-white text-center text-xs">software developer and data engineer</h3>
                 </div>
-
-                
             </div>
 
         </section>
