@@ -6,7 +6,7 @@ import Herramientas from "../Components/Principal/Herramientas"
 export default function Principal(){
     return(
         <>
-            <div class="bg-primary">
+            <div class="bg-primary ">
                 <Portada/>
                 <SobreMi/>
                 <Herramientas/>
