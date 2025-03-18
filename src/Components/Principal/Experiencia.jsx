@@ -5,14 +5,14 @@ import imgWebdef from '../../Assets/imgWebdef.png'
 export default function Exeperiencia() {
     return (
         <section class="mb-10">
-            <div class="flex flex-col w-full justify-center items-center pl-5 pr-5 pb-5 md:pb-10 md:pl-5  md:pr-15" >
+            <div class="flex flex-col w-full justify-center items-center pl-5 pr-5 pb-5 md:pb-10" >
                 <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">Projects and Experience</h1>
             </div>
 
             <div class="flex flex-wrap place-content-between gap-10 justify-center items-center w-full md:pl-20 md:pr-20">
 
 
-                <div class=" bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen">
+                <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen">
                     <img src={imgAXA} alt="AXA Colpatria"className="w-full h-40 object-cover"/>
                     <div class="p-2">
                         <h3 class="text-md font-code-bold text-gray-800">Data Engineer · AXA Colpatria</h3>
@@ -27,7 +27,7 @@ export default function Exeperiencia() {
                     </div>
                 </div>
 
-                <div class=" bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen">
+                <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen">
                     <img src={imgWebdef} alt="AXA Colpatria"className="w-full h-40 object-cover"/>
                     <div class="p-2">
                         <h3 class="text-md font-code-bold text-gray-800">Web Page</h3>
@@ -42,7 +42,7 @@ export default function Exeperiencia() {
                     </div>
                 </div>
 
-                <div class=" bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen">
+                <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen">
                     <img src={imgParchelo} alt="AXA Colpatria"className="w-full h-40 object-cover"/>
                     <div class="p-2">
                         <h3 class="text-md font-code-bold text-gray-800">Hibryd Mobile app</h3>
@@ -57,7 +57,7 @@ export default function Exeperiencia() {
                     </div>
                 </div>
 
-                <div class=" bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen">
+                <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen">
                     <img src={imglittleLemon} alt="AXA Colpatria"className="w-full h-40 object-cover"/>
                     <div class="p-2">
                         <h3 class="text-md font-code-bold text-gray-800">Native Aplication</h3>
