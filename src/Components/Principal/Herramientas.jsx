@@ -9,7 +9,7 @@ import kotlin from "../../Assets/kotlinLogo.svg"
 
 export default function Herramientas() {
     return (
-        <section>
+        <section class="pb-10">
             <div class="scroll-animation">
                 <div class="flex flex-col w-full justify-center items-center pl-5 pr-5 pb-5 md:pb-10 md:pl-5  md:pr-15" >
                     <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">Tool Box</h1>
