@@ -15,7 +15,7 @@ export default function Herramientas() {
                     <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">Tool Box</h1>
                 </div>
 
-                <div class="scroll-animation flex flex-wrap place-content-between gap-6 md:gap-12 justify-center md:pr-45 md:pl-45 pb-5">
+                <div class="scroll-animation flex flex-wrap place-content-between gap-6 md:gap-12 justify-center md:pr-45 md:pl-45 lg:pr-90 lg:pl-90 pb-5">
 
                     <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg justify-center border-2 border-secundary-blue">
                         <img src={htmlLogo} alt="Logo HTML"/>
