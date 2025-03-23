@@ -17,51 +17,65 @@ export default function Herramientas() {
 
                 <div class="scroll-animation flex flex-wrap place-content-between gap-6 md:gap-12 justify-center md:pr-45 md:pl-45 lg:pr-90 lg:pl-90 pb-5">
 
-                    <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg justify-center border-2 border-secundary-blue">
-                        <img src={htmlLogo} alt="Logo HTML"/>
-                        <p class="font-code-bold text-secundary-white text-center mt-2">HTML</p>
-                    </div>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                        <div class="bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg justify-center border-2 border-secundary-blue hover:scale-[1.1] transition">
+                            <img src={htmlLogo} alt="Logo HTML" />
+                            <p class="font-code-bold text-secundary-white text-center mt-2">HTML</p>
+                        </div>
+                    </a>
+                    <a href="https://www.w3schools.com/CSSref/index.php" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                        <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue hover:scale-[1.1] transition">
+                            <img src={cssLogo} alt="Logo CSS" />
+                            <p class="font-code-bold text-secundary-white text-center mt-2">CSS</p>
+                        </div>
+                    </a>
 
-                    <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue">
-                        <img src={cssLogo} alt="Logo CSS"/>
-                        <p class="font-code-bold text-secundary-white text-center mt-2">CSS</p>
-                    </div>
-                    
-                    <div class="scroll-animation  bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue">
-                        <img src={javaScript} alt="Logo JavaScript"/>
-                        <p class="font-code-bold text-secundary-white text-center mt-2">JavaScript</p>
-                    </div>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                        <div class="scroll-animation  bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue hover:scale-[1.1] transition">
+                            <img src={javaScript} alt="Logo JavaScript" />
+                            <p class="font-code-bold text-secundary-white text-center mt-2">JavaScript</p>
+                        </div>
+                    </a>
 
+                    <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                        <div class=" scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue hover:scale-[1.1] transition">
+                            <img src={reactLogo} alt="Logo React" />
+                            <p class="font-code-bold text-secundary-white text-center mt-2">React</p>
+                        </div>
+                    </a>
 
-                    <div class=" scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue">
-                        <img src={reactLogo} alt="Logo React"/>
-                        <p class="font-code-bold text-secundary-white text-center mt-2">React</p>
-                    </div>
+                    <a href="https://www.python.org/doc/" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                        <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue hover:scale-[1.1] transition">
+                            <img src={pythonLogo} alt="Logo Python" />
+                            <p class="font-code-bold text-secundary-white text-center mt-2">Python</p>
+                        </div>
+                    </a>
 
-                    <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue">
-                        <img src={pythonLogo} alt="Logo Python"/>
-                        <p class="font-code-bold text-secundary-white text-center mt-2">Python</p>
-                    </div>
+                    <a href="https://learn.microsoft.com/es-es/sql/?view=sql-server-ver16" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                        <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue hover:scale-[1.1] transition">
+                            <img src={sqlLogo} alt="Logo SQL" />
+                            <p class="font-code-bold text-secundary-white text-center mt-2">SQL</p>
+                        </div>
+                    </a>
 
-                    <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue">
-                        <img src={sqlLogo} alt="Logo SQL"/>
-                        <p class="font-code-bold text-secundary-white text-center mt-2">SQL</p>
-                    </div>
+                    <a href="https://kotlinlang.org/docs/home.html" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                        <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue hover:scale-[1.1] transition">
+                            <img src={kotlin} alt="Logo Kotlin" />
+                            <p class="font-code-bold text-secundary-white text-center mt-2">Kotlin</p>
+                        </div>
+                    </a>
 
-                    <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue">
-                        <img src={kotlin} alt="Logo Kotlin"/>
-                        <p class="font-code-bold text-secundary-white text-center mt-2">Kotlin</p>
-                    </div>
-
-                    <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue">
-                        <img src={gitLogo} alt="Logo Git"/>
-                        <p class="font-code-bold text-secundary-white text-center mt-2">Git</p>
-                    </div>
+                    <a href="https://git-scm.com/doc" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                        <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue hover:scale-[1.1] transition">
+                            <img src={gitLogo} alt="Logo Git" />
+                            <p class="font-code-bold text-secundary-white text-center mt-2">Git</p>
+                        </div>
+                    </a>
 
 
                 </div>
 
             </div>
-        </section>
+        </section >
     )
 }
