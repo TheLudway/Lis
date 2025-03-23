@@ -35,7 +35,28 @@
     background-size:auto;
     background-position: center;
   }
+
 }
+
+
+@layer utilities{
+  .fondo-scrum{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8))  , url("./Assets/imgScrum.jpg");
+    transition: transform 0.3s ease-in-out;
+  }
+  .fondo-scrum:hover {
+    transform: scale(1.1);
+  }
+
+  .fondo-react{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8))  , url("./Assets/imgReact-Native.jpg");
+    transition: transform 0.3s ease-in-out;
+  }
+  .fondo-react:hover {
+    transform: scale(1.1);
+  }
+}
+
 
 @layer utilities {
   @keyframes scroll {
