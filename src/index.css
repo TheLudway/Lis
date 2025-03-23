@@ -55,6 +55,22 @@
   .fondo-react:hover {
     transform: scale(1.1);
   }
+
+  .fondo-meta-developer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8))  , url("./Assets/imgMetaDeveloper.jpg");
+    transition: transform 0.3s ease-in-out;
+  }
+  .fondo-meta-developer:hover {
+    transform: scale(1.1);
+  }
+
+  .fondo-JavaScript{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8))  , url("./Assets/imgJavaScript.jpg");
+    transition: transform 0.3s ease-in-out;
+  }
+  .fondo-JavaScript:hover {
+    transform: scale(1.1);
+  }
 }
 
 
