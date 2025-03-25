@@ -39,8 +39,6 @@ export default function Contanto() {
                 <button type="submit" class="bg-secundary-green w-45 rounded-3xl p-3 mt-5 font-code-bold text-secundary-white">Enviar</button>
             </form>
 
-
-
         </section>
     )
 }
