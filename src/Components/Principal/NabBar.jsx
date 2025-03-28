@@ -6,28 +6,35 @@ import Menu from "../../Assets/menuLogo.svg"
 
 export default function NavBar() {
     const [navegador, setNavegador] = useState(false);
+  
     return (
-        <nav class={` ${navegador ? "flex-col" : ""}fixed flex-wrap w-full justify-center items-center z-50 bg-black p-3 shadow-md`}>
-            <div class={` ${navegador ? "flex-col" : ""} flex`}>
-                <button onClick={() => setNavegador(!navegador)}>
-                    <img src={Menu} alt="Menu Logo" class="w-8 md:hidden" />
-                </button>
-                <ul class={` ${navegador ? "flex" : "hidden"} md:flex md:flex-row md:justify-center flex-col text-white  gap-10`}>
-                    <li><a href="#sobre-mi" class="font-code-bold hover:underline">About Me</a></li>
-                    <li><a href="#herramientas" class="font-code-bold hover:underline">Tool Box</a></li>
-                    <li><a href="#experiencia" clas class="font-code-bold hover:underline">Proyects and Experience</a></li>
-                    <li><a href="#certificaciones" class="font-code-bold hover:underline">certifications</a></li>
-                    <li><a href="#contacto" class="font-code-bold hover:underline">Contact me</a></li>
-                </ul>
-                <div class={`${navegador ? "hidden" : "flex"} justify-center items-center gap-3 ml-auto`}>
-                    <a href="https://github.com/Nicolis15" target="_blank" rel="noopener noreferrer" >
-                        <img src={Git} alt="github Logo" class="w-6" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/nicolasliscruz/" target="_blank" rel="noopener noreferrer" >
-                        <img src={Linkedin} alt="github Logo" class="w-8" />
-                    </a>
-                </div>
-            </div>
-        </nav>
-    )
-}
+      <nav className="fixed top-0 left-0 w-full bg-black p-3 z-50 shadow-md">
+        <div className="flex items-center justify-between">
+            
+          <button onClick={() => setNavegador(!navegador)} className="md:hidden">
+            <img src={Menu} alt="Menu Logo" className="w-8" />
+          </button>
+  
+          <ul className={`absolute top-full left-0 w-full bg-black p-3 transition-all ${
+            navegador ? "flex flex-col" : "hidden"
+          } md:flex md:flex-row md:static md:w-auto md:bg-transparent gap-6 text-white`}>
+            <li><a href="#sobre-mi" className="font-code-bold hover:underline">About Me</a></li>
+            <li><a href="#herramientas" className="font-code-bold hover:underline">Tool Box</a></li>
+            <li><a href="#experiencia" className="font-code-bold hover:underline">Projects and Experience</a></li>
+            <li><a href="#certificaciones" className="font-code-bold hover:underline">Certifications</a></li>
+            <li><a href="#contacto" className="font-code-bold hover:underline">Contact me</a></li>
+          </ul>
+  
+          {/* Redes Sociales */}
+          <div className="flex items-center gap-3">
+            <a href="https://github.com/Nicolis15" target="_blank" rel="noopener noreferrer">
+              <img src={Git} alt="GitHub Logo" className="w-6" />
+            </a>
+            <a href="https://www.linkedin.com/in/nicolasliscruz/" target="_blank" rel="noopener noreferrer">
+              <img src={Linkedin} alt="LinkedIn Logo" className="w-8" />
+            </a>
+          </div>
+        </div>
+      </nav>
+    );
+  }
