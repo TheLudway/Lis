@@ -5,7 +5,9 @@ import Herramientas from "../Components/Principal/Herramientas"
 import Exeperiencia from "../Components/Principal/Experiencia"
 import Contacto from "../Components/Principal/Contacto"
 import Certifications from "../Components/Principal/certifications"
+import Tools from "../Components/Principal/Tools"
 import NavBar from "../Components/Principal/NabBar"
+
 
 export default function Principal() {
     return (
@@ -15,6 +17,7 @@ export default function Principal() {
                 <div id="portada"><Portada /></div>
                 <div id="sobre-mi"><SobreMi /></div>
                 <div id="herramientas"><Herramientas /></div>
+                <div> <Tools/> </div>
                 <div id="experiencia"><Exeperiencia /></div>
                 <div id="certificaciones"><Certifications /></div>
                 <div id="contacto"><Contacto /></div>
