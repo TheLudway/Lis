@@ -37,7 +37,7 @@
     },
 
     "contacto" : {
-        "titulo" : "Contactame",
+        "titulo" : "Contact Me",
         "nombre" : "Name",
         "mensaje" : "message",
         "enviar" : "Send"
