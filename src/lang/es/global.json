@@ -24,8 +24,23 @@
         "frameworks" : "Herramientas y FrameWorks"
     },
 
-    "herramientas" : {
-        "titulo" : "Proyectos y experiencia"
+    "experiencia" : {
+        "titulo" : "Proyectos y experiencia",
+        "axa": "Ingeniero de Datos en el área de analítica. Experiencia en procesos ETL, manejo de SQL Server y limpieza de datos con Python.",
+        "web" : "Desarrollada con React, Vite y Tailwind CSS, optimizada para un rendimiento eficiente y un diseño responsive que se adapta a cualquier dispositivo.",
+        "parchelo" : "Desarrollada con React Native, con integración de APIs y servicios de Google Cloud Platform. Cuenta con un backend en MongoDB para el manejo de datos.",
+        "little" : "Desarrollada en Android con Jetpack Compose, integrando APIs para la gestión de datos y una experiencia de usuario optimizada."
+    },
+
+    "certificacion" : {
+        "titulo" : "Certificaciones"
+    },
+
+    "contacto" : {
+        "titulo" : "Contactame",
+        "nombre" : "Nombre",
+        "mensaje" : "Mensaje",
+        "enviar" : "Enviar"
     }
 
 }

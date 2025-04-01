@@ -1,10 +1,12 @@
-import imgScrum from '../../Assets/imgScrum.jpg'
+import { useTranslation } from "react-i18next"
 
 export default function Certifications() {
+    const [t] = useTranslation()
+
     return (
         <section>
             <div class="flex flex-col justify-center items-center pl-5 pr-5 pt-5" >
-                <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">Certifications</h1>
+                <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">{t("certificacion.titulo")}</h1>
             </div>
 
             <div class="flex flex-wrap justify-center items-center gap-10 pt-10 md:pl-20 md:pr-20">

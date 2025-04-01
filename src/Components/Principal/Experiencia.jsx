@@ -9,7 +9,7 @@ export default function Exeperiencia() {
     return (
         <section class="mb-10">
             <div class="flex flex-col w-full justify-center items-center pl-5 pr-5 pb-5 md:pb-10" >
-                <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">{t("herramientas.titulo")}</h1>
+                <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">{t("experiencia.titulo")}</h1>
             </div>
 
             <div class="flex flex-wrap place-content-between gap-10 justify-center items-center w-full md:pl-20 md:pr-20">
@@ -20,7 +20,7 @@ export default function Exeperiencia() {
                         <div class="p-2">
                             <h3 class="text-md font-code-bold text-gray-800">Data Engineer · AXA Colpatria</h3>
                             <p class="text-sm font-code text-gray-500 ">JAN - 2025</p>
-                            <p class="text-xs font-code text-left pt-2">Ingeniero de Datos en el área de analítica. Experiencia en procesos ETL, manejo de SQL Server y limpieza de datos con Python.</p>
+                            <p class="text-xs font-code text-left pt-2">{t("experiencia.axa")}</p>
                         </div>
 
                         <div class="flex flex-wrap gap-2 pb-2 pr-2 pl-2">
@@ -39,7 +39,7 @@ export default function Exeperiencia() {
                         <div class="p-2">
                             <h3 class="text-md font-code-bold text-gray-800">Web Page</h3>
                             <p class="text-sm font-code text-gray-500 ">APR - 2025</p>
-                            <p class="text-xs font-code text-left pt-2">Desarrollada con React, Vite y Tailwind CSS, optimizada para un rendimiento eficiente y un diseño responsive que se adapta a cualquier dispositivo.</p>
+                            <p class="text-xs font-code text-left pt-2">{t("experiencia.web")}</p>
                         </div>
 
                         <div class="flex flex-wrap gap-2 pb-2 pr-2 pl-2">
@@ -58,7 +58,7 @@ export default function Exeperiencia() {
                         <div class="p-2">
                             <h3 class="text-md font-code-bold text-gray-800">Hibryd Mobile app</h3>
                             <p class="text-sm font-code text-gray-500 ">OCT - 2024</p>
-                            <p class="text-xs font-code text-left pt-2">Desarrollada con React Native, con integración de APIs y servicios de Google Cloud Platform. Cuenta con un backend en MongoDB para el manejo de datos.</p>
+                            <p class="text-xs font-code text-left pt-2">{t("experiencia.parchelo")}</p>
                         </div>
 
                         <div class="flex flex-wrap gap-2 pb-2 pr-2 pl-2">
@@ -76,7 +76,7 @@ export default function Exeperiencia() {
                         <div class="p-2">
                             <h3 class="text-md font-code-bold text-gray-800">Native Aplication</h3>
                             <p class="text-sm font-code text-gray-500 ">JUN - 2024</p>
-                            <p class="text-xs font-code text-left pt-2">Desarrollada en Android con Jetpack Compose, integrando APIs para la gestión de datos y una experiencia de usuario optimizada.</p>
+                            <p class="text-xs font-code text-left pt-2">{t("experiencia.little")}</p>
                         </div>
 
                         <div class="flex flex-wrap gap-2 pb-2 pr-2 pl-2">
