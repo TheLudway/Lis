@@ -6,13 +6,15 @@ import pythonLogo from "../../Assets/pythonLogo.svg"
 import sqlLogo from "../../Assets/sqlLogo.svg"
 import gitLogo from "../../Assets/gitLogo.svg"
 import kotlin from "../../Assets/kotlinLogo.svg"
+import { useTranslation } from "react-i18next"
 
 export default function Herramientas() {
+    const [t] = useTranslation()
     return (
         <section class="pb-10">
             <div>
                 <div class="flex flex-col w-full justify-center items-center pl-5 pr-5 pb-5 md:pb-10" >
-                    <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">Programming Languages</h1>
+                    <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">{t("tools.lenguajes")}</h1>
                 </div>
 
                 <div class="flex flex-wrap place-content-between gap-6 md:gap-12 justify-center md:pr-45 md:pl-45 lg:pr-90 lg:pl-90 pb-5">

@@ -17,5 +17,15 @@
         "primero" : "I am a software developer passionate about frontend development, both in mobile and web environments. Throughout my career, I have developed native Android applications using Kotlin and Jetpack Compose, as well as hybrid applications with React Native, creating smooth and efficient experiences.",
         "segundo" : "In web development, I work with technologies such as React, Vite, and Tailwind CSS to build modern, optimized, and visually appealing interfaces. Additionally, I have had the opportunity to work as a data engineer, using tools like SQL Server, Python, SSIS, and Power BI to transform data into valuable insights.",
         "tercero" : "I consider myself a disciplined person focused on continuous improvement, always seeking new challenges and learning opportunities. My goal is to keep growing professionally and contribute innovative solutions to the projects I participate in."
+    },
+
+    "tools" : {
+        "lenguajes" : "Programming Languages",
+        "frameworks" : "Tools and FrameWorks"
+    },
+
+    "herramientas" : {
+        "titulo" : "Projects and Experience"
     }
+
 }

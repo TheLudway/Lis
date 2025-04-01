@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import perfil from '../../Assets/perfil.jpg'
 export default function SobreMi() {
-    const { t} = useTranslation();
+    const {t} = useTranslation();
     return (
         <section>
             <div class="grid col-auto md:grid-cols-[25%_1fr]">

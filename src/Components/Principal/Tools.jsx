@@ -5,12 +5,14 @@ import ReactN from "../../Assets/reactNLogo.svg"
 import Jetpack from "../../Assets/JetpackLogo.svg"
 import Power from "../../Assets/powerbiLogo.svg"
 import SSIS from "../../Assets/SSISLogo.svg"
+import { useTranslation } from "react-i18next";
 
 export default function Tools() {
+    const { t } = useTranslation();
     return (
         <section class="pb-15">
             <div class="flex flex-col w-full justify-center items-center pl-5 pr-5 pb-5 md:pb-10" >
-                <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">Tools and FrameWorks</h1>
+                <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">{t("tools.frameworks")}</h1>
             </div>
 
             <div class="flex flex-wrap place-content-between gap-6 md:gap-12 justify-center md:pr-45 md:pl-45 lg:pr-90 lg:pl-90 pb-5">

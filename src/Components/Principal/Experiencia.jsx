@@ -2,11 +2,14 @@ import imgAXA from '../../Assets/imgAXA.png'
 import imglittleLemon from '../../Assets/imglittleLemon.jpg'
 import imgParchelo from '../../Assets/imgParchelo.png'
 import imgWebdef from '../../Assets/imgWebdef.png'
+import { useTranslation } from 'react-i18next'
+
 export default function Exeperiencia() {
+    const [t] = useTranslation()
     return (
         <section class="mb-10">
             <div class="flex flex-col w-full justify-center items-center pl-5 pr-5 pb-5 md:pb-10" >
-                <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">Projects and Experience</h1>
+                <h1 class="font-code-bold text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-center w-full">{t("herramientas.titulo")}</h1>
             </div>
 
             <div class="flex flex-wrap place-content-between gap-10 justify-center items-center w-full md:pl-20 md:pr-20">
