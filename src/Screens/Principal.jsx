@@ -17,7 +17,7 @@ export default function Principal() {
                 <div id="portada"><Portada /></div>
                 <div id="sobre-mi"><SobreMi /></div>
                 <div id="herramientas"><Herramientas /></div>
-                <div> <Tools/> </div>
+                <div><Tools/></div>
                 <div id="experiencia"><Exeperiencia /></div>
                 <div id="certificaciones"><Certifications /></div>
                 <div id="contacto"><Contacto /></div>

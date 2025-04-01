@@ -1,0 +1,14 @@
+{
+    "nav" : {
+        "sobre" : "About Me",
+        "herramienta" : "Tool Box",
+        "proyectos" : "Projects and Experience",
+        "certificaciones" : "Certifications",
+        "contacto": "Contact me"
+    },
+
+    "portada" : 
+    {
+        "profesion" : "Software Developer and Data Engineer"
+    }
+}

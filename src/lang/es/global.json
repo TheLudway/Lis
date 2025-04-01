@@ -1,0 +1,14 @@
+{
+    "nav" : {
+        "sobre" : "Sobre mi",
+        "herramienta" : "Herramientas",
+        "proyectos" : "Proyectos y experiencia",
+        "certificaciones" : "Certificaciones",
+        "contacto": "Contacto"
+    },
+
+    "portada" : 
+    {
+        "profesion" : "Desarrollador de Software e Ingeniero de Datos"
+    }
+}
