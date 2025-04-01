@@ -1,5 +1,7 @@
+import { useTranslation } from "react-i18next";
 import perfil from '../../Assets/perfil.jpg'
 export default function SobreMi() {
+    const { t} = useTranslation();
     return (
         <section>
             <div class="grid col-auto md:grid-cols-[25%_1fr]">
@@ -8,11 +10,11 @@ export default function SobreMi() {
                 </div>
 
                 <div class="flex flex-col justify-center items-center pl-5 pr-5 pb-5 md:pl-5  md:pr-15 scroll-animation" >
-                    <h1 class="font-code-bold  text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-start w-full">About me</h1>
+                    <h1 class="font-code-bold  text-secundary-blue text-2xl md:text-3xl sm:text-2xl text-start w-full">{t("about.about")}</h1>
                     <p class="font-code text-secundary-white pt-5 text-start text-xs sm:text-xs md:text-sm">
-                    Soy un ingeniero de sistemas apasionado por el desarrollo frontend, tanto en el ámbito móvil como web. A lo largo de mi carrera, he desarrollado aplicaciones nativas para Android con Kotlin y Jetpack Compose, así como aplicaciones híbridas con React Native, creando experiencias fluidas y eficientes.<br></br><br></br>
-                    En el desarrollo web, trabajo con tecnologías como React, Vite y Tailwind CSS para construir interfaces modernas, optimizadas y atractivas. Además, he tenido la oportunidad de desempeñarme como ingeniero de datos, utilizando herramientas como SQL Server, Python, SSIS y Power BI para transformar datos en información valiosa.<br></br><br></br>
-                    Me considero una persona disciplinada y enfocada en la mejora continua, siempre en busca de nuevos retos y aprendizajes. Mi objetivo es seguir creciendo profesionalmente y aportar soluciones innovadoras a los proyectos en los que participo.<br></br>
+                    {t("about.primero")}<br></br><br></br>
+                    {t("about.segundo")}<br></br><br></br>
+                    {t("about.tercero")}<br></br>
                     </p>
                 </div>
 
