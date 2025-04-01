@@ -25,7 +25,6 @@ export default function NavBar() {
             <li><a href="#contacto" className="sm:text-sm font-code-bold hover:underline">Contact me</a></li>
           </ul>
   
-          {/* Redes Sociales */}
           <div className="flex items-center gap-3">
             <a href="https://github.com/Nicolis15" target="_blank" rel="noopener noreferrer">
               <img src={Git} alt="GitHub Logo" className="w-6" />
