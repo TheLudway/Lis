@@ -4,7 +4,7 @@ import javaScript from "../../Assets/javascriptLogo.svg"
 import reactLogo from "../../Assets/reactLogo.svg"
 import pythonLogo from "../../Assets/pythonLogo.svg"
 import sqlLogo from "../../Assets/sqlLogo.svg"
-import gitLogo from "../../Assets/gitLogo.svg"
+import javaLogo from "../../Assets/javaLogo.svg"
 import kotlin from "../../Assets/kotlinLogo.svg"
 import { useTranslation } from "react-i18next"
 
@@ -67,10 +67,10 @@ export default function Herramientas() {
                         </div>
                     </a>
 
-                    <a href="https://git-scm.com/doc" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                    <a href="https://docs.oracle.com/en/java/" target="_blank" rel="noopener noreferrer" class="scroll-animation">
                         <div class="scroll-animation bg-primary-darkBlue w-35 p-5 rounded-2xl shadow-lg border-2 border-secundary-blue hover:scale-[1.1] transition">
-                            <img src={gitLogo} alt="Logo Git" />
-                            <p class="font-code-bold text-secundary-white text-center mt-2">Git</p>
+                            <img src={javaLogo} alt="Logo Git" />
+                            <p class="font-code-bold text-secundary-white text-center mt-2">Java</p>
                         </div>
                     </a>
 

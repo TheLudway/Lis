@@ -5,6 +5,7 @@ import ReactN from "../../Assets/reactNLogo.svg"
 import Jetpack from "../../Assets/JetpackLogo.svg"
 import Power from "../../Assets/powerbiLogo.svg"
 import SSIS from "../../Assets/SSISLogo.svg"
+import gitLogo from "../../Assets/gitLogo.svg"
 import { useTranslation } from "react-i18next";
 
 export default function Tools() {
@@ -64,6 +65,13 @@ export default function Tools() {
                     <div class="scroll-animation bg-white w-40 p-5 rounded-2xl shadow-lg justify-center border-2 border-secundary-blue hover:scale-[1.1] transition">
                         <img src={Power} alt="Logo Power BI" />
                         <p class="font-code-bold text-primary-darkBlue text-center mt-2">Power BI</p>
+                    </div>
+                </a>
+
+                <a href="https://git-scm.com/doc" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                    <div class="scroll-animation bg-white w-40 p-5 rounded-2xl shadow-lg justify-center border-2 border-secundary-blue hover:scale-[1.1] transition">
+                        <img src={gitLogo} alt="Logo Power BI" />
+                        <p class="font-code-bold text-primary-darkBlue text-center mt-2">Git</p>
                     </div>
                 </a>
 
