@@ -1,11 +1,23 @@
-import imgAXA from '../../Assets/imgAXA.png'
-import imglittleLemon from '../../Assets/imglittleLemon.jpg'
-import imgParchelo from '../../Assets/imgParchelo.png'
-import imgWebdef from '../../Assets/imgWebdef.png'
-import { useTranslation } from 'react-i18next'
+import imgAXA from '../../Assets/imgAXA.png';
+import imglittleLemon from '../../Assets/imglittleLemon.jpg';
+import imgParchelo from '../../Assets/imgParchelo.png';
+import imgWebdef from '../../Assets/imgWebdef.png';
+import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function Exeperiencia() {
-    const [t] = useTranslation()
+    const [t] = useTranslation();
+    const navigate = useNavigate();
+
+    const navegar = () => {
+        navigate('/webNicolas/info', {
+            detalles : {
+
+            }
+        }
+        )
+    }
+
     return (
         <section class="mb-10">
             <div class="flex flex-col w-full justify-center items-center pl-5 pr-5 pb-5 md:pb-10" >
@@ -14,7 +26,7 @@ export default function Exeperiencia() {
 
             <div class="flex flex-wrap place-content-between gap-10 justify-center items-center w-full md:pl-20 md:pr-20">
 
-                <a href="https://www.axacolpatria.co/portalpublico-lf/inicio" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                <button onClick={navegar} class="scroll-animation">{/*href="https://www.axacolpatria.co/portalpublico-lf/inicio" */ }
                     <div class="bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen hover:scale-[1.1] transition">
                         <img src={imgAXA} alt="AXA Colpatria" className="w-full h-40 object-cover" />
                         <div class="p-2">
@@ -31,7 +43,7 @@ export default function Exeperiencia() {
                             <h1 class=" bg-gray-800 rounded-2xl pt-1 pb-1 pl-3 pr-3 drop-shadow-xl font-code-bold text-sm text-center text-white">Python</h1>
                         </div>
                     </div>
-                </a>
+                </button>
 
                 <a href="https://github.com/Nicolis15/webNicolas" target="_blank" rel="noopener noreferrer" class="scroll-animation">
                     <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen hover:scale-[1.1] transition">
