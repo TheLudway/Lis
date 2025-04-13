@@ -65,6 +65,21 @@ export default function RenderE({ clave }) {
                 nombre: "Git",
                 imagen: gitLogo
             },
+        ],
+
+        little: [
+            {
+                nombre: "JP Compos",
+                imagen: Jetpack
+            },
+            {
+                nombre: "Visual Studio",
+                imagen: Visual
+            },
+            {
+                nombre: "Git",
+                imagen: gitLogo
+            },
         ]
 
     };

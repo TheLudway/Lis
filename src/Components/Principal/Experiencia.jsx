@@ -84,7 +84,7 @@ export default function Exeperiencia() {
                     </div>
                 </button>
 
-                <a href="https://github.com/Nicolis15/Little-Lemon" target="_blank" rel="noopener noreferrer" class="scroll-animation cursor-pointer">
+                <button onClick={() => navegar('little','imglittleLemon','https://github.com/Nicolis15/Little-Lemon')} class="scroll-animation cursor-pointer">
                     <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen hover:scale-[1.1] transition">
                         <img src={imglittleLemon} alt="Little Lemon" className="w-full h-40 object-cover" />
                         <div class="p-2">
@@ -101,7 +101,7 @@ export default function Exeperiencia() {
                             <h1 class=" bg-gray-800 rounded-2xl pt-1 pb-1 pl-3 pr-3 drop-shadow-xl font-code-bold text-sm text-center text-white">APIs</h1>
                         </div>
                     </div>
-                </a>
+                </button>
 
 
 

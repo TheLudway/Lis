@@ -71,5 +71,13 @@
         "d1" : "Desarrollé una aplicación móvil multiplataforma utilizando React Native, permitiendo su funcionamiento tanto en dispositivos Android como iOS. El proyecto fue creado desde cero, incluyendo el diseño completo de la interfaz y la experiencia de usuario, asegurando una navegación intuitiva y visualmente atractiva.",
         "d2" : "Implementé un sistema de autenticación para el acceso seguro de los usuarios, así como la conexión con una base de datos MongoDB para el almacenamiento y gestión de la información. Esto permitió mantener una estructura robusta para el manejo de datos en tiempo real.",
         "d3" : "Además, integré la funcionalidad de vista de mapa (MapView), facilitando la visualización geográfica de datos clave dentro de la app."
+    },
+
+    "little":{
+        "titulo" : "Aplicacion movil Android",
+        "link" : "Ver Repositorio",
+        "d1" : "I developed a native Android application using Kotlin as the main programming language and Jetpack Compose for building the user interface, achieving a modern, fluid, and fully responsive design across different devices.",
+        "d2" : "The application integrates API consumption through the Ktor library, enabling efficient communication with external services and real-time data retrieval. This implementation made handling HTTP requests simple and flexible within the Kotlin environment.",
+        "d3" : "The combined use of Jetpack Compose and Ktor allowed me to build a clean architecture with decoupled and easily maintainable components, ensuring a consistent user experience and agile development."
     }
 }

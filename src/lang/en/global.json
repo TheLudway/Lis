@@ -71,5 +71,13 @@
         "d1" : "I developed a cross-platform mobile application using React Native, enabling it to run on both Android and iOS devices. The project was built from scratch, including the complete design of the user interface and user experience, ensuring intuitive and visually appealing navigation.",
         "d2" : "I implemented an authentication system for secure user access, as well as a connection to a MongoDB database for data storage and management. This allowed for a robust structure to handle real-time data.",
         "d3" : "Additionally, I integrated a map view (MapView) feature, enabling the geographic visualization of key data within the app."
+    },
+
+    "little":{
+        "titulo" : "Android mobile application",
+        "link" : "View Repository",
+        "d1" : "I developed a native Android application using Kotlin as the main programming language and Jetpack Compose for building the user interface, achieving a modern, fluid, and fully responsive design across different devices.",
+        "d2" : "The application integrates API consumption through the Ktor library, enabling efficient communication with external services and real-time data retrieval. This implementation made handling HTTP requests simple and flexible within the Kotlin environment.",
+        "d3" : "The combined use of Jetpack Compose and Ktor allowed me to build a clean architecture with decoupled and easily maintainable components, ensuring a consistent user experience and agile development."
     }
 }

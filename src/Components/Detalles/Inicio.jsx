@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import imgAXA from '../../Assets/imgAXA.png';
 import imgWebdef from '../../Assets/imgWebdef.png';
 import imgParchelo from '../../Assets/imgParchelo.png';
+import imglittleLemon from '../../Assets/imglittleLemon.jpg';
 import RenderL from './RenderL';
 import RenderE from './RenderE';
 
@@ -14,6 +15,7 @@ export default function Inicio({ Id, Imagen, Link }) {
         imgAXA,
         imgWebdef,
         imgParchelo,
+        imglittleLemon
     };
 
 

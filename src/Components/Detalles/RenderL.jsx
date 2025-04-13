@@ -50,6 +50,12 @@ export default function RenderL({ clave }) {
                 nombre: "React",
                 imagen: reactLogo
             },
+        ],
+        little: [
+            {
+                nombre: "Kotlin",
+                imagen: kotlin
+            }
         ]
     };
 
