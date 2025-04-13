@@ -51,8 +51,8 @@ export default function Exeperiencia() {
                     <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen hover:scale-[1.1] transition">
                         <img src={imgWebdef} alt="AXA Colpatria" className="w-full h-40 object-cover" />
                         <div class="p-2">
-                            <h3 class="text-md font-code-bold text-gray-800">Web Page</h3>
-                            <p class="text-sm font-code text-gray-500 ">APR - 2025</p>
+                            <h3 class="text-md font-code-bold text-left text-gray-800">Web Page</h3>
+                            <p class="text-sm font-code text-left text-gray-500 ">APR - 2025</p>
                             <p class="text-xs font-code text-left pt-2">{t("experiencia.web")}</p>
                         </div>
 
@@ -70,8 +70,8 @@ export default function Exeperiencia() {
                     <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen hover:scale-[1.1] transition">
                         <img src={imgParchelo} alt="AXA Colpatria" className="w-full h-40 object-cover" />
                         <div class="p-2">
-                            <h3 class="text-md font-code-bold text-gray-800">Hibryd Mobile app</h3>
-                            <p class="text-sm font-code text-gray-500 ">OCT - 2024</p>
+                            <h3 class="text-md font-code-bold text-left text-gray-800">Hybrid Mobile app</h3>
+                            <p class="text-sm font-code text-left text-gray-500 ">OCT - 2024</p>
                             <p class="text-xs font-code text-left pt-2">{t("experiencia.parchelo")}</p>
                         </div>
 
@@ -86,10 +86,10 @@ export default function Exeperiencia() {
 
                 <a href="https://github.com/Nicolis15/Little-Lemon" target="_blank" rel="noopener noreferrer" class="scroll-animation">
                     <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen hover:scale-[1.1] transition">
-                        <img src={imglittleLemon} alt="AXA Colpatria" className="w-full h-40 object-cover" />
+                        <img src={imglittleLemon} alt="Little Lemon" className="w-full h-40 object-cover" />
                         <div class="p-2">
-                            <h3 class="text-md font-code-bold text-gray-800">Native Aplication</h3>
-                            <p class="text-sm font-code text-gray-500 ">JUN - 2024</p>
+                            <h3 class="text-md font-code-bold text-left text-gray-800">Native Aplication</h3>
+                            <p class="text-sm font-code text-left text-gray-500 ">JUN - 2024</p>
                             <p class="text-xs font-code text-left pt-2">{t("experiencia.little")}</p>
                         </div>
 
