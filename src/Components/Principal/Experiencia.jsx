@@ -47,7 +47,7 @@ export default function Exeperiencia() {
                     </div>
                 </button>
 
-                <button  onClick={() => navegar('portafolio','imgWebdef','https://github.com/Nicolis15/webNicolas')} class="scroll-animation">
+                <button  onClick={() => navegar('portafolio','imgWebdef','https://github.com/Nicolis15/webNicolas')} class="scroll-animation cursor-pointer">
                     <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen hover:scale-[1.1] transition">
                         <img src={imgWebdef} alt="AXA Colpatria" className="w-full h-40 object-cover" />
                         <div class="p-2">
@@ -66,7 +66,7 @@ export default function Exeperiencia() {
                     </div>
                 </button>
 
-                <a href="https://photos.app.goo.gl/dJ8Yk76r5fmD4jBo7" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                <button onClick={() => navegar('parchelo','imgParchelo','https://photos.app.goo.gl/dJ8Yk76r5fmD4jBo7')}  class="scroll-animation cursor-pointer">
                     <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen hover:scale-[1.1] transition">
                         <img src={imgParchelo} alt="AXA Colpatria" className="w-full h-40 object-cover" />
                         <div class="p-2">
@@ -82,9 +82,9 @@ export default function Exeperiencia() {
                             <h1 class=" bg-gray-800 rounded-2xl pt-1 pb-1 pl-3 pr-3 drop-shadow-xl font-code-bold text-sm text-center text-white">Mongo DB</h1>
                         </div>
                     </div>
-                </a>
+                </button>
 
-                <a href="https://github.com/Nicolis15/Little-Lemon" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                <a href="https://github.com/Nicolis15/Little-Lemon" target="_blank" rel="noopener noreferrer" class="scroll-animation cursor-pointer">
                     <div class="scroll-animation bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen hover:scale-[1.1] transition">
                         <img src={imglittleLemon} alt="Little Lemon" className="w-full h-40 object-cover" />
                         <div class="p-2">
