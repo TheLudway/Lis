@@ -51,6 +51,20 @@ export default function RenderE({ clave }) {
                 nombre: "Git",
                 imagen: gitLogo
             },
+        ],
+        parchelo: [
+            {
+                nombre: "React Native",
+                imagen: ReactN
+            },
+            {
+                nombre: "Visual Studio",
+                imagen: Visual
+            },
+            {
+                nombre: "Git",
+                imagen: gitLogo
+            },
         ]
 
     };

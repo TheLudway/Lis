@@ -39,6 +39,17 @@ export default function RenderL({ clave }) {
                 nombre: "React",
                 imagen: reactLogo
             },
+        ],
+
+        parchelo: [
+            {
+                nombre: "JavaScript",
+                imagen: javaScript
+            },
+            {
+                nombre: "React",
+                imagen: reactLogo
+            },
         ]
     };
 
