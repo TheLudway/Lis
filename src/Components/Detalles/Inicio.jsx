@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import imgAXA from '../../Assets/imgAXA.png';
+import imgWebdef from '../../Assets/imgWebdef.png';
 import RenderL from './RenderL';
 import RenderE from './RenderE';
 
@@ -10,6 +11,7 @@ export default function Inicio({ Id, Imagen, Link }) {
 
     const imagenes = {
         imgAXA,
+        imgWebdef,
     };
 
 
@@ -24,7 +26,7 @@ export default function Inicio({ Id, Imagen, Link }) {
                 </a>
 
                 <div class="flex flex-col bg-primary-darkBlue mt-5 ml-5 mb-10 mr-5 md:flex-row md:mt-10 md:ml-20 md:mr-20 md:gap-10  items-center justify-center rounded-2xl p-5 shadow-2xl">
-                    <img src={rutaImagen} alt='Imagen de experiencia' class="w-[200px]  md:w-[20%] object-cover rounded-2xl border-white border-1" />
+                    <img src={rutaImagen} alt='Imagen de experiencia' class="w-[200px] h-[200px] md:w-[20%] object-cover rounded-2xl border-white border-1" />
 
                     <div class="w-full pt-5 md:pl-0 md:pr-5 md:pt-0">
                         <h2 class="font-code-bold text-xl text-white pb-5">{t('general.descripcion')}</h2>

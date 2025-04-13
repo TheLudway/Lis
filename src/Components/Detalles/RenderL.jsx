@@ -20,7 +20,26 @@ export default function RenderL({ clave }) {
                 nombre: "Python",
                 imagen: pythonLogo
             },
-        ]
+        ],
+        portafolio: [
+                    {
+                        nombre: "HTML",
+                        imagen: htmlLogo
+                    },
+                    {
+                        nombre: "CSS",
+                        imagen: cssLogo
+                    },
+                    {
+                        nombre: "JavaScript",
+                        imagen: javaScript
+                    },
+        
+                    {
+                        nombre: "React",
+                        imagen: reactLogo
+                    },
+                ]
     };
 
     const habilidades = skills[clave] || [];

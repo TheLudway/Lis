@@ -28,7 +28,27 @@ export default function RenderE({ clave }) {
                 nombre: "Git",
                 imagen: gitLogo
             },
+        ],
+        portafolio: [
+            {
+                nombre: "React Native",
+                imagen: ReactN
+            },
+            {
+                nombre: "Visual Studio",
+                imagen: Visual
+            },
+            {
+                nombre: "Tailwind",
+                imagen: Tailwind
+            },
+
+            {
+                nombre: "Git",
+                imagen: gitLogo
+            },
         ]
+
     };
 
     const habilidades = skills[clave] || [];

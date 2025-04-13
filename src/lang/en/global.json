@@ -55,5 +55,13 @@
         "d1" : "I designed and developed data pipelines using Python, SQL, and ETL tools such as SSIS, with the goal of automating extraction, transformation, and loading processes from various sources. These pipelines optimized data flow, enabling efficient integration and storage.",
         "d2" : "I implemented data cleaning, validation, and standardization processes, ensuring data quality and availability for analysis. This information was used in interactive dashboards developed in Power BI, supporting strategic decision-making.",
         "d3" : "Additionally, I provided support in data migration to on-premise servers, actively participating in the configuration and execution of tests to ensure proper environment functionality, data integrity, and expected system performance"
+    },
+
+    "portafolio":{
+        "titulo" : "Web portfolio",
+        "link" : "View Repository",
+        "d1" : "I developed a modern and responsive web portfolio using React, with the Vite bundling tool, which allowed me to optimize the project's performance and enjoy a faster, more efficient development experience. For navigation between sections, I integrated React Router DOM, ensuring smooth transitions without page reloads.",
+        "d2" : "I used Tailwind CSS to apply a clean and professional design, fully adaptable to different devices. I was able to style the components quickly and consistently, maintaining a polished visual appearance throughout the site.",
+        "d3" : "The portfolio is designed as a professional showcase that reflects my technical and design skills. It features sections such as a personal introduction, featured projects, technologies I master, and a contact form to facilitate connections with potential employers or collaborators."
     }
 }
