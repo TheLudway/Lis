@@ -44,11 +44,14 @@
     },
 
     "general" : {
-        "descripcion" : "Description"
+        "descripcion" : "Description",
+        "lenguajes" : "Programming Languages",
+        "frameworks" : "Tools and FrameWorks"
     },
 
     "axa":{
         "titulo" : "Data Engineer · AXA Colpatria",
+        "link" : "Once again from the company",
         "d1" : "I designed and developed data pipelines using Python, SQL, and ETL tools such as SSIS, with the goal of automating extraction, transformation, and loading processes from various sources. These pipelines optimized data flow, enabling efficient integration and storage.",
         "d2" : "I implemented data cleaning, validation, and standardization processes, ensuring data quality and availability for analysis. This information was used in interactive dashboards developed in Power BI, supporting strategic decision-making.",
         "d3" : "Additionally, I provided support in data migration to on-premise servers, actively participating in the configuration and execution of tests to ensure proper environment functionality, data integrity, and expected system performance"

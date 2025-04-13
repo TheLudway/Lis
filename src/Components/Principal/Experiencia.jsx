@@ -9,11 +9,12 @@ export default function Exeperiencia() {
     const [t] = useTranslation();
     const navigate = useNavigate();
 
-    const navegar = (T, I) => {
+    const navegar = (T, I, L) => {
         navigate('/webNicolas/info', {
             state : {
                 id :  T,
-                imagen: I
+                imagen: I,
+                link: L
             }
         }
         )
@@ -27,7 +28,7 @@ export default function Exeperiencia() {
 
             <div class="flex flex-wrap place-content-between gap-10 justify-center items-center w-full md:pl-20 md:pr-20">
 
-                <button onClick={() => navegar('axa','imgAXA')} class="scroll-animation cursor-pointer">{/*href="https://www.axacolpatria.co/portalpublico-lf/inicio" */ }
+                <button onClick={() => navegar('axa','imgAXA','https://www.axacolpatria.co/portalpublico-lf/inicio')} class="scroll-animation cursor-pointer">
                     <div class="bg-white rounded-sm drop-shadow-xl w-80 overflow-hidden border-2 border-secundary-lightGreen hover:scale-[1.1] transition">
                         <img src={imgAXA} alt="AXA Colpatria" className="w-full h-40 object-cover" />
                         <div class="p-2">
