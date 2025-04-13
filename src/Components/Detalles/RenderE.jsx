@@ -21,6 +21,10 @@ export default function RenderE({ clave }) {
                 imagen: Server
             },
             {
+                nombre: "Visual Studio",
+                imagen: Visual
+            },
+            {
                 nombre: "PowerBI",
                 imagen: Power
             },
