@@ -6,6 +6,7 @@ import Jetpack from "../../Assets/JetpackLogo.svg"
 import Power from "../../Assets/powerbiLogo.svg"
 import SSIS from "../../Assets/SSISLogo.svg"
 import gitLogo from "../../Assets/gitLogo.svg"
+import android from "../../Assets/androidLogo.svg";
 import { useTranslation } from "react-i18next";
 
 export default function Tools() {
@@ -46,6 +47,13 @@ export default function Tools() {
                     </div>
                 </a> 
 
+                <a href="https://developer.android.com/develop?hl=es-419" target="_blank" rel="noopener noreferrer" class="scroll-animation">
+                    <div class="scroll-animation bg-white w-40 p-5 rounded-2xl shadow-lg justify-center border-2 border-secundary-blue hover:scale-[1.1] transition">
+                        <img src={android} alt="Android Studio"/>
+                        <p class="font-code-bold text-primary-darkBlue text-center mt-2">A Studio</p>
+                    </div>
+                </a>
+
 
                 <a href="https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16" target="_blank" rel="noopener noreferrer" class="scroll-animation">
                     <div class="scroll-animation bg-white w-40 p-5 rounded-2xl shadow-lg justify-center border-2 border-secundary-blue hover:scale-[1.1] transition">
@@ -60,6 +68,8 @@ export default function Tools() {
                         <p class="font-code-bold text-primary-darkBlue text-center mt-2">SSIS</p>
                     </div>
                 </a>
+
+                
 
                 <a href="https://learn.microsoft.com/en-us/power-bi/" target="_blank" rel="noopener noreferrer" class="scroll-animation">
                     <div class="scroll-animation bg-white w-40 p-5 rounded-2xl shadow-lg justify-center border-2 border-secundary-blue hover:scale-[1.1] transition">

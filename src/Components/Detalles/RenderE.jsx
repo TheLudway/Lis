@@ -7,6 +7,7 @@ import Jetpack from "../../Assets/JetpackLogo.svg";
 import Power from "../../Assets/powerbiLogo.svg";
 import SSIS from "../../Assets/SSISLogo.svg";
 import gitLogo from "../../Assets/gitLogo.svg";
+import android from "../../Assets/androidLogo.svg";
 
 
 export default function RenderE({ clave }) {
@@ -73,8 +74,8 @@ export default function RenderE({ clave }) {
                 imagen: Jetpack
             },
             {
-                nombre: "Visual Studio",
-                imagen: Visual
+                nombre: "Android Studio",
+                imagen: android
             },
             {
                 nombre: "Git",
