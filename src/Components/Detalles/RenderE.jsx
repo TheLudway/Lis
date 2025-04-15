@@ -92,7 +92,7 @@ export default function RenderE({ clave }) {
                 habilidades.map((habilidad, index) => (
                     <div
                         key={index}
-                        className="scroll-animation bg-white w-30 md:w-35 p-5 rounded-2xl shadow-lg justify-center border-2 border-secundary-blue hover:scale-[1.1] transition"
+                        className="scroll-animation bg-white w-30 sm:w-30 md:w-35 p-5 rounded-2xl shadow-lg justify-center border-2 border-secundary-blue hover:scale-[1.1] transition"
                     >
                         <img src={habilidad.imagen} alt={habilidad.nombre} />
                         <p className="font-code-bold text-xs md:text-sm text-black text-center mt-2">
