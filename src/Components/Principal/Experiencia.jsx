@@ -10,7 +10,7 @@ export default function Exeperiencia() {
     const navigate = useNavigate();
 
     const navegar = (T, I, L) => {
-        navigate('/webNicolas/info', {
+        navigate('/info', {
             state : {
                 id :  T,
                 imagen: I,
