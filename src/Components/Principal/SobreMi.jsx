@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import perfil from '../../Assets/perfil.jpg'
+import perfil from '../../Assets/Perfil.jpg'
 export default function SobreMi() {
     const {t} = useTranslation();
     return (

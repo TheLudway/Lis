@@ -1,4 +1,4 @@
-import imgAXA from '../../Assets/imgAXA.png';
+import imgAXA from '../../Assets/imgAxa.png';
 import imglittleLemon from '../../Assets/imglittleLemon.jpg';
 import imgParchelo from '../../Assets/imgParchelo.png';
 import imgWebdef from '../../Assets/imgWebdef.png';

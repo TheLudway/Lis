@@ -1,4 +1,4 @@
-import Copy from "../Components/Principal/copy";
+import Copy from "../Components/Principal/Copy";
 import Cabecera from "../Components/Detalles/Cabecera";
 import Inicio from "../Components/Detalles/Inicio";
 import { useLocation } from 'react-router-dom';

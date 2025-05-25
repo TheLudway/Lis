@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import imgAXA from '../../Assets/imgAXA.png';
+import imgAXA from '../../Assets/imgAxa.png';
 import imgWebdef from '../../Assets/imgWebdef.png';
 import imgParchelo from '../../Assets/imgParchelo.png';
 import imglittleLemon from '../../Assets/imglittleLemon.jpg';

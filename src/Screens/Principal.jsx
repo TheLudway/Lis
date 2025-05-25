@@ -1,6 +1,6 @@
 import Portada from "../Components/Principal/Portada"
 import SobreMi from "../Components/Principal/SobreMi"
-import Copy from "../Components/Principal/copy"
+import Copy from "../Components/Principal/Copy"
 import Herramientas from "../Components/Principal/Herramientas"
 import Exeperiencia from "../Components/Principal/Experiencia"
 import Contacto from "../Components/Principal/Contacto"
